@@ -36,7 +36,7 @@ Esta rosta recebe o seguinte objeto, com `Content-Type` – `application/json` n
 }
 ```
 
-A API não aceita a criação de recursos com e-mail ou username duplicados.
+A API não aceita a criação de recursos com e-mail ou username duplicados. A resposta de sucesso desta endpoint é `201`.
 
 ### Requisição para a rota /login
 
@@ -59,3 +59,5 @@ Esta rosta recebe um dos seguintes objetos, com `Content-Type` – `application/
     "password": "a123vsd123",
 }
 ```
+
+ A resposta de sucesso desta endpoint é `200`.
